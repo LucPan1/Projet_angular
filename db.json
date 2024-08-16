@@ -1,0 +1,84 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "num": "XXX",
+      "firstname": "First name",
+      "lastname": "Last name",
+      "email": "employe1@codingthesmartway.com",
+      "age": "age",
+      "validated": false,
+      "profilImage": "./images/man.png",
+      "materialAssigned": [
+        {
+          "id": 1,
+          "ref": "XX1",
+          "state": "Neuf",
+          "name": "Macbook",
+          "image": "./images/macbook.jpg"
+        }
+      ]
+    },
+    {
+      "lastname": "Doe",
+      "firstname": "John",
+      "email": "john.doe@outlook.com",
+      "id": "2"
+    },
+    {
+      "lastname": "Smith",
+      "firstname": "John",
+      "email": "john.smith@hotmail.com",
+      "id": "3"
+    },
+    {
+      "lastname": "test",
+      "firstname": "test1",
+      "email": "test@outlook.com",
+      "id": "4"
+    },
+    {
+      "lastname": "allen",
+      "firstname": "barry",
+      "email": "barry.allen@outlook.com",
+      "id": "5"
+    }
+  ],
+  "materiel": [
+    {
+      "id": "1",
+      "ref": "XX1",
+      "state": "Neuf",
+      "name": "Macbook",
+      "image": "./images/macbook.jpg"
+    },
+    {
+      "id": "2",
+      "ref": "XX2",
+      "state": "Neuf",
+      "name": "SamsungS10",
+      "image": "./images/samsungs10.jpg"
+    },
+    {
+      "id": "3",
+      "ref": "XX3",
+      "state": "Mauvais",
+      "name": "Ipad",
+      "image": "./images/ipad.png"
+    },
+    {
+      "id": "4",
+      "ref": "XX4",
+      "state": "Moyen",
+      "name": "Clé de l'agence",
+      "image": "./images/cle.jpg"
+    }
+  ],
+  "users": [
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": "65d3"
+    }
+  ]
+}

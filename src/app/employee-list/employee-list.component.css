@@ -1,0 +1,70 @@
+.form {
+  text-align: right;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+  
+.add-button {
+  background-color: #3490dc;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  display: block;
+  margin-bottom: 20px;
+  width: 150px;
+}
+  
+.add-button:hover {
+  background-color: #2779bd;
+}
+
+.employee-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.employee-table th, .employee-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+  
+.employee-table th {
+  background-color: #f1f1f1;
+}
+
+.employee-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.edit-button, .delete-button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(255, 0, 30, 0.753);
+}
+
+.edit-button {
+  background-color: #3490dc;
+  
+}

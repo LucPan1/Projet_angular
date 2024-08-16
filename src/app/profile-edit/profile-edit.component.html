@@ -1,0 +1,23 @@
+<form [formGroup]="profileForm" (ngSubmit)="onSubmit()">
+    <div>
+      <label for="name">Nom:</label>
+      <input type="text" id="name" formControlName="name">
+    </div>
+    <div>
+      <label for="email">Prénom:</label>
+      <input type="email" id="email" formControlName="email">
+    </div>
+    <div>
+      <label for="password">Email:</label>
+      <input type="password" id="password" formControlName="password">
+    </div>
+    <div>
+        <label for="email">âge:</label>
+        <input type="email" id="email" formControlName="email">
+      </div>
+      <div>
+        <label for="email">Numéro:</label>
+        <input type="email" id="email" formControlName="email">
+      </div>
+    <button type="submit" [disabled]="profileForm.invalid">Save</button>
+  </form>

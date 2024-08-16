@@ -1,0 +1,24 @@
+<form (ngSubmit)="onRegister()">
+    <div class="container">
+      <h1>Register</h1>
+      <p>Veuillez remplir ce formulaire pour créer un compte.</p>
+      <hr>
+  
+      <label for="nom"><b>Nom</b></label>
+      <input type="text" placeholder="Entrer le nom" name="nom" required>
+  
+      <label for="prenom"><b>Prénom</b></label>
+      <input type="text" placeholder="Entrer le prénom" name="prenom" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Entrer le mail" name="email" required>
+      <hr>
+  
+      <p>En créant un compte, vous acceptez nos <a href="https://www.economie.gouv.fr/entreprises/reglement-general-protection-donnees-rgpd" target="_blank">Conditions et Confidentialité</a>.</p>
+      <button type="submit" class="registerbtn">Register</button>
+    </div>
+  
+    <div class="container signin">
+      <p>Already have an account? <a href="#">Sign in</a></p>
+    </div>
+  </form>

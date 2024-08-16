@@ -1,27 +1,29 @@
 # ProjetAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
+Bienvenue sur mon projet Angular. Vous pouvez accéder à la page d'accueil via http://localhost:4200/. Cette page est assez basique avec une barre de navigation. J'ai préféré me concentrer sur les fonctionnalités plutôt que sur le design. Bien que je sois conscient qu'un design attendu est important, j'ai mis l'accent sur les fonctionnalités. Toutes les pages que j'ai créées sont responsives et adaptées au format mobile. 
 
-## Development server
+## Lancement
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Pour le projet, j'ai utiliser votre fakeapi pour les données. Lancer le serveur JSON en utilisant la commande json-server --watch db.json, puis l'application Angular avec ng serve -o.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Login, Register, Logout, Home
 
-## Build
+Les pages de connexion et d'inscription sont opérationnelles, avec une simulation de connexion et un menu de déconnexion disponible après connexion. La redirection se fait vers la page d'accueil une fois connecté.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# CRUD Employés
 
-## Running unit tests
+La page de gestion des employés est accessible à http://localhost:4200/employeesList. Cette page permet de manipuler les données du fichier db.json. Les opérations CRUD sont entièrement fonctionnelles.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Filtrage des employés 
 
-## Running end-to-end tests
+Le filtrage des employés est possible grâce à une barre de recherche comportant une liste déroulante avec les noms, prénoms et email. J'ai utilisé un Observable pour le filtrage des données.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+# Modification du profil et gérer et stocker le matériel pour chaque employés
 
-## Further help
+La fonctionnalité de modification du profil n'est pas encore opérationnelle malheureusement. Vous pouvez un début d'implémentation dans le dossier profil-edit. Il me restait à relier les données en récupérant les informations du login pour permettre la modification du profil et poursuivre avec la gestion des matériels.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+J'aurais aimé ajouter plus de fonctionnalités et en savoir plus sur Ionic, mais j'ai dû terminer un autre projet en parallèle ce qui m'a compliqué la tâche. Mais je suis prêt à continuer le projet s'il le faut.
+
+
+
