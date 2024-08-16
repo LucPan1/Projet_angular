@@ -23,7 +23,7 @@ Le filtrage des employés est possible grâce à une barre de recherche comporta
 
 La fonctionnalité de modification du profil n'est pas encore opérationnelle malheureusement. Vous pouvez un début d'implémentation dans le dossier profil-edit. Il me restait à relier les données en récupérant les informations du login pour permettre la modification du profil et poursuivre avec la gestion des matériels.
 
-J'aurais aimé ajouter plus de fonctionnalités et en savoir plus sur Ionic, mais j'ai dû terminer un autre projet en parallèle ce qui m'a compliqué la tâche. Mais je suis prêt à continuer le projet s'il le faut.
+J'aurais aimé ajouter plus de fonctionnalités et en savoir plus sur Ionic, mais j'ai dû terminer un autre projet en parallèle ce qui m'a compliqué la tâche. Je suis prêt et motivé à continuer le projet s'il le faut.
 
 
 
