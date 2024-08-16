@@ -7,19 +7,19 @@ Bienvenue sur mon projet Angular. Vous pouvez accéder à la page d'accueil via 
 Pour le projet, j'ai utiliser votre fakeapi pour les données. Lancer le serveur JSON en utilisant la commande json-server --watch db.json, puis l'application Angular avec ng serve -o.
 
 
-# Login, Register, Logout, Home
+## Login, Register, Logout, Home
 
 Les pages de connexion et d'inscription sont opérationnelles, avec une simulation de connexion et un menu de déconnexion disponible après connexion. La redirection se fait vers la page d'accueil une fois connecté.
 
-# CRUD Employés
+## CRUD Employés
 
 La page de gestion des employés est accessible à http://localhost:4200/employeesList. Cette page permet de manipuler les données du fichier db.json. Les opérations CRUD sont entièrement fonctionnelles.
 
-# Filtrage des employés 
+## Filtrage des employés 
 
 Le filtrage des employés est possible grâce à une barre de recherche comportant une liste déroulante avec les noms, prénoms et email. J'ai utilisé un Observable pour le filtrage des données.
 
-# Modification du profil et gérer et stocker le matériel pour chaque employés
+## Modification du profil et gérer et stocker le matériel pour chaque employés
 
 La fonctionnalité de modification du profil n'est pas encore opérationnelle malheureusement. Vous pouvez un début d'implémentation dans le dossier profil-edit. Il me restait à relier les données en récupérant les informations du login pour permettre la modification du profil et poursuivre avec la gestion des matériels.
 
