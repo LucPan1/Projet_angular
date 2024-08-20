@@ -1,4 +1,4 @@
-# ProjetAngular
+# Projet Angular
 
 Bienvenue sur mon projet Angular. Vous pouvez accéder à la page d'accueil via http://localhost:4200/. Cette page est assez basique avec une barre de navigation. J'ai préféré me concentrer sur les fonctionnalités plutôt que sur le design. Bien que je sois conscient qu'un bon design est important, j'ai mis l'accent sur les fonctionnalités. Toutes les pages que j'ai créées sont responsives et adaptées au format mobile. 
 
