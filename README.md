@@ -19,9 +19,7 @@ La page de gestion des employés est accessible à http://localhost:4200/employe
 
 Le filtrage des employés est possible grâce à une barre de recherche comportant une liste déroulante avec les noms, prénoms et email. J'ai utilisé un Observable pour le filtrage des données.
 
-## Modification du profil et gérer et stocker le matériel pour chaque employés
 
-La fonctionnalité de modification du profil n'est pas encore opérationnelle malheureusement. Vous pouvez voir un début d'implémentation dans le dossier profil-edit. Il me restait à relier les données en récupérant les informations du login pour permettre la modification du profil et poursuivre avec la gestion des matériels.
 
 
 
